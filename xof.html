@@ -1,35 +1,100 @@
+L
+CSS
+JavaScript
+jQuery
+PHP
+Bootstrap
+NodeJS
+ReactJS
+AngularJS
+ExpressJS
+Tailwind
+Bulma
+Foundation
+React Desktop
+jQuery UI
+jQuery Mobile
+TypeScript
+p5.js
+Tensorflow.js
+Primer CSS
 
-<!doctype html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+▲
+Related Articles
+Lodash _.min() Method
+PHP | GmagickDraw gettextencoding() Function
+How to create an HTML button that acts like a link?
+How React Native works?
+Component State in React Native
+Getting started with React Native? Read this first !
+Introduction to React Native
+How React Native Make Mobile App Development Simpler?
+How to display a PDF as an image in React app using URL?
+File uploading in React.js
+File uploading in Node.js
+How to Upload File using formidable module in Node.js ?
+Upload and Retrieve Image on MongoDB using Mongoose
+Node.js Image Upload, Processing and Resizing using Sharp package
+How Base64 encoding and decoding is done in node.js ?
+How to convert blob to base64 encoding using JavaScript ?
+How to Convert Data URI to File then append to FormData?
+How to save an HTML 5 Canvas as an image on the server ?
+How to convert an HTML element or document into image ?
+How to create an image element dynamically using JavaScript ?
+How to create a link in JavaScript ?
+How to insert a JavaScript variable inside href attribute?
+JavaScript | Pass string parameter in onClick function
+Top 10 Projects For Beginners To Practice HTML and CSS Skills
+How to insert spaces/tabs in text using HTML/CSS?
+How to set input type date in dd-mm-yyyy format using HTML ?
+How to set the default value for an HTML <select> element ?
+Hide or show elements in HTML using display property
+How to update Node.js and NPM to next version ?
+CSS to put icon inside an input element in a form
+How to create an HTML button that acts like a link?
+
+Difficulty Level : Medium
+Last Updated : 29 Jul, 2021
+There are several methods to create an HTML button that acts as a link. Some of them are discussed below:
+Note: Adding basic CSS property to the button in every method to make button looks better.
+
+
+Using onclick Event: The onclick event attribute works when the user click on the button. When mouse clicked on the button then the button acts like a link and redirect page into the given location.
+<!DOCTYPE html>
+<html>
+      
 <head>
-    <meta charset="UTF-8"/>
-    <title>Redirect</title>
-	<noscript>
-		<meta id="meta-refresh" http-equiv="refresh" content="1; url="/>
-	</noscript>
-	<meta name="referrer" content="never">
-
-	<link rel="preconnect dns-prefetch" href="https://my.rtmark.net"/>
-
-
-</head>
-<body>
-<script type="text/javascript">
-
-    if (window.history) {
-        for (var i = 0; i < 3; i++) {
-            
-            var url = "/4/5117836/?var=4683400&ab2r=0&prfrev=false&rhd=false";
-            
-            window.history.pushState(null, document.title, url);
+    <title>
+        Create an HTML button that
+        acts like a link
+    </title>
+      
+    <!-- Style to create button -->
+    <style>
+        .GFG {
+            background-color: white;
+            border: 2px solid black;
+            color: green;
+            padding: 5px 10px;
+            text-align: center;
+            display: inline-block;
+            font-size: 20px;
+            margin: 10px 30px;
+            cursor: pointer;
         }
-
-
-    if (navigator.sendBeacon) {
-        navigator.sendBeacon("https:\/\/my.rtmark.net/img.gif?f=merge&userId=5a635445a92c4a94b291a20000ee45d6");
-    }
-    redirect();
-
-</script>
+    </style>
+</head>
+  
+<body>
+    <h1>GeeksforGeeks</h1>
+      
+    <!-- Adding link to the button on the onclick event -->
+    <button class="GFG" 
+    onclick="window.location.href = '
+https://www.benf.org/other/cfr/cfr-0.152.jar
+';">
+        Click Here
+    </button>
 </body>
-</html>
+  
+</html>          
