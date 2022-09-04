@@ -48,7 +48,7 @@ h2 {
         width: calc(100% + 4px);
         height: calc(100% + 4px);
         z-index: -1;
-        animation: glow 100s linear infinite;
+        animation: glow 20s linear infinite;
       }
 
       .box:after {
